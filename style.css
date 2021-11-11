@@ -5,7 +5,9 @@
 }
 
 body {
-    background: #DEE5F9;
+    background: url("./pattern-background-desktop.png") #DEE5F9;
+    background-repeat: no-repeat;
+    
 }
 
 .plan_wrapper {
