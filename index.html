@@ -5,38 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
         <div class="i">
-        <div class="a z">
-            <img src="im.png" height="160px" width="300px">
-        </div>
-        <div class="a p">
-        <h2 class="t">
-            <strong>Order Summary</strong>
-        </h2>
-        <p>
-            <h5 style="font-weight:lighter; padding-top: 0;">You can now listen to millions of songs,<br>audiobooks,and podcasts on any device<br> anywhere you like!</h5>
-        </p>
-        </div>
-        <div class="a d">
-            <div class="plan3">
-                <div class="inner_plan">
-                    <h4>Annual Plan</h4>
-                    <p>$59.99/yr</p>
+            <img class="outer"   src="./illustration-hero.svg" >
+                <div class="ap">
+                    <h2 class="t">Order Summary</h2>
+                    <p>You can now listen to millions of songs,audiobooks,
+                        and podcasts on any device anywhere you like!
+                    </p>
                 </div>
-                <div class="inner_plan">
-                    <a href="#">change</a>
+                
+                <div class="ad flex">
+                    <img src="./icon-music.svg"/>
+                    <div class="plan3">
+                        <h4>Annual Plan</h4>
+                        <p>$59.99/yr</p>
+                    </div>
+                    <a  class ="change" href="#">Change</a>
+                            
                 </div>
-            </div>
+                <div class="ab">
+                        <!-- <div class="proceed"><strong>Proceed To Payment</strong></div>  -->
+                        <button class="proceed">Proceed To Payment</button>
+                        <a class= "btn" href="#">Cancel Order</a>
+                </div>
         </div>
-        <div class="a b">
-        <div class="proceed"><strong>Proceed To Payment</strong></div> 
-         <h6>Cancel Order</h6>
-        </div>
-        </div>
-</div>
-
+    </div>
 </body>
 </html>
