@@ -205,9 +205,72 @@ body {
     align-items: center;
     justify-content: space-between;
 }*/
+/* body {
+    background: #DEE5F9;
+} */
 
+/* .plan_wrapper {
+    width: 400px;
+    height: 80vh;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 40px;
+}  */
 
+/* .plan_container {
+    background: #F8F9FE;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
+.plan1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #DEE5F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+.plan_wrapper{
+padding: 20px 40px;
+align-items: center;
+}
+.plan_container {
+    background: #F8F9FE;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+align-items: center;
+}
+.plan1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #DEE5F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plan2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
 /* F8F9FE BACKGROUND */
 /* ICON COLOR DEE5F9 */
 /* H1 293753 */
